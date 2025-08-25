@@ -1,32 +1,27 @@
+# Site settings
+title: My Awesome Blog
+description: A blog about awesome things.
+baseurl: "" # Leave blank for root or specify subdirectory
+url: "https://Ethan''s.com"
 
-	<DOCTYPE! html>
-<head>
-	<title>Living things</title>
-<style>
-    body {
-      font-family: Arial;
-      background-color: #f0f8ff;
-      color: #333;
-      margin: 20px;
-    }
-</style>
-</head>
-<body>
-	<h1><u>Living things</u></h1>
-	<p>Living things are anything that have life in them.</p>
-	<h3><u>Characteristics of living things</u></h3>
-	<ul type="square">
-	<li>They have  life in them.</li>
-	<li>They respirate.</li>
-	<li>They reproduce there own offsprings.</li>
-	<li>They have response ability.</li>
-	</ul>
-	<h3><u>Types of Living things</u></h3>
-	<ul type="square">
-	<li>Animals.</li>
-	<li>Plants.</li>
-	<footer>
-		<p>&copy; 2025 living things Guide</p>
-	</footer>
-</body>
-</html>
+# Author information
+author:
+  name: Jane Doe
+  email: jane.doe@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/"
+
+# Social links
+social:
+  twitter: janedoe
+  github: janedoe
+
